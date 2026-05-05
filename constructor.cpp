@@ -3,7 +3,7 @@ using namespace std;
 
 class mahasiswa {
 public:
-    Mahasiswa();
+    mahasiswa();
 };
 
 mahasiswa::mahasiswa() {
