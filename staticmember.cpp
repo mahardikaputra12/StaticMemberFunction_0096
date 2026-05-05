@@ -10,4 +10,28 @@ public:
     string nama;
 
 
-    
+    void setID();
+    void printALL();
+
+
+
+    Mahasiswa(string pnama) :nama(pnama) {
+        setID();
+    }
+};
+
+
+int Mahasiswa::nim = 10;
+
+
+void Mahasiswa::setID() {
+    id = ++nim;
+};
+
+void Mahasiswa::printALL() {
+
+    cout << "ID : " << id << endl;
+    cout << "Nama : " << nama << endl;
+    cout << endl;
+};
+
