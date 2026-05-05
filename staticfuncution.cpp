@@ -48,4 +48,10 @@ int main() {
     Mahasiswa::setNim(9);
     Mahasiswa mhs3("Andi Janu");
     Mahasiswa mhs4("Joko Wahono");
+
+
+    mhs1.printALL();
+    mhs2.printALL();
+    mhs3.printALL();
+    mhs4.printALL();
 }
