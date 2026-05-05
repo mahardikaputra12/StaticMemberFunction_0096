@@ -18,7 +18,7 @@ public:
         nim = pnim;
     };
 
-    static void getNim() {
+    static int getNim() {
         return nim;
     }
 
@@ -54,4 +54,10 @@ int main() {
     mhs2.printALL();
     mhs3.printALL();
     mhs4.printALL();
+
+
+    cout << "Akses dari luar object = " << Mahasiswa::getNim() << endl;
+    system("pause");
+
+    return 0;
 }
